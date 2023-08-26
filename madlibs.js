@@ -102,19 +102,3 @@ function resetGame() {
     }
   });
 }
-// function resultBtn() {
-//   const madLibsPreview = document.querySelector(".madLibsPreview");
-//   const clonedDiv = madLibsPreview.cloneNode(true);
-//   const myModel = document.createElement('div');
-//   const divContant = document.createElement('div');
-//   myModel.id = "myModal";
-//   divContant.id = "model-content";
-//   divContant.appendChild(clonedDiv);
-//   myModel.appendChild(divContant);
-//   const result = document.getElementById("resultButton");
-//   result.addEventListener("click", () => {
-//     console.log("resut")
-//     myModel.style.display = "block"; // Show the modal
-//   });
-
-// }
